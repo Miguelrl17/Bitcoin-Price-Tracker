@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This is where the main code goes */
+body{
+    background-color: #113; /* This changes background color*/
+    color:#fff; /* This changes the color of the text */
+
+    background-image: radial-gradient(at 50% 50%, #226 0%, transparent 100%); 
+    /*Adds a gradient that is at the halfway point 50%, starts at the begining 0% then changes to transparent to the end*/
+    height: 100vh; /* This changes the size of the main body to the whole screen*/
+    
+}
